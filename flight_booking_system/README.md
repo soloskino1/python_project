@@ -1,0 +1,2 @@
+Flight Booking System
+This Python program is a basic implementation of a flight booking system. It allows users to manage flights, book seats, view available flights, cancel bookings, and search for flights by destination. The system is designed using classes to represent flights and the overall booking system.
