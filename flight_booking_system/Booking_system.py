@@ -98,13 +98,3 @@ if __name__ == "__main__":
         passenger_name = input("Enter your name: ")
         email = input("Enter your email address: ")
         selected_flight.book_seat(passenger_name, email)
-
-    # Display updated bookings
-    flight_booking_system.display_available_flights()
-
-    # Prompt user to cancel a booking
-    passenger_to_cancel = input("Enter the name of the passenger to cancel the booking: ")
-    selected_flight.cancel_booking(passenger_to_cancel)
-
-    # Display updated bookings after cancellation
-    flight_booking_system.display_available_flights()
